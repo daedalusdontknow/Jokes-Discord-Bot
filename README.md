@@ -70,6 +70,7 @@ The bot was made with love so treat it that way :D
 # How to use
 
 First open the file `src\DiscordBot\App.java` and modify the String `Token` and write instead of `TOKEN` your token (In the picture below you can see where your Token is displayed)
+
 ![image](https://user-images.githubusercontent.com/101858241/175789017-9b483811-f863-4d5f-a919-b383bdf98ff7.png)
 <br>
 After that you save the file and close it
