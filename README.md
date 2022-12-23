@@ -1,6 +1,8 @@
 <h1 align="center">
 Joke Discord Bot
 </h1>
+ReadMe is currently out to date
+
 <h6 align="center">
  A Discord Bot made with JDA (JAVA) by daedalusdontknow and Moonfire
 	<br>
