@@ -44,9 +44,8 @@ public class main {
         }, 0, 15000);
     }
 
-    //OTU1OTExNjU5MTk1NjAwOTU3.GHwQru.c6tXE7Qp3ViipoU3GG1WQMRPFH6XyY3nh2ltmw
     public static void main(String[] args) throws ClassNotFoundException {
-        builder = JDABuilder.createLight("OTU1OTExNjU5MTk1NjAwOTU3.GHwQru.c6tXE7Qp3ViipoU3GG1WQMRPFH6XyY3nh2ltmw")
+        builder = JDABuilder.createLight("YOUR TOKEN")
                 .setActivity(Activity.playing("Starting..."))
                 .setStatus(OnlineStatus.ONLINE)
                 .enableIntents(GatewayIntent.GUILD_MEMBERS)
