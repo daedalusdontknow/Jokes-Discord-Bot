@@ -11,6 +11,9 @@ import de.daedalusdontknow.Commands.Money.cmdBalance;
 import de.daedalusdontknow.Commands.Money.cmdPay;
 import de.daedalusdontknow.Commands.Money.cmdTop;
 import de.daedalusdontknow.Commands.Money.cmdWork;
+import de.daedalusdontknow.Commands.MultiPlayerGame.cmdGames;
+import de.daedalusdontknow.Commands.MultiPlayerGame.cmdMRPS;
+import de.daedalusdontknow.Commands.MultiPlayerGame.cmdTTT;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
@@ -31,6 +34,9 @@ public class commandHandler extends ListenerAdapter {
             case "rps", "rockpaperscissors" -> cmdRPS.run(event);
             case "cf", "coinflip" -> cmdCF.run(event);
             case "dr", "diceroll" -> cmdDR.run(event);
+            case "games" -> cmdGames.run(event);
+            case "ttt", "tictactoe" -> cmdTTT.run(event);
+            case "mrps", "multiplayer-rps", "multiplayer-rockpaperscissors" -> cmdMRPS.run(event);
         }
     }
 }

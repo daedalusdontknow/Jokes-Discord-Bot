@@ -3,7 +3,6 @@ package de.daedalusdontknow.faySystem;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.events.interaction.command.SlashCommandInteractionEvent;
 import net.dv8tion.jda.api.interactions.components.buttons.Button;
-import net.dv8tion.jda.api.interactions.modals.Modal;
 
 import java.util.List;
 
@@ -51,14 +50,6 @@ public class daedalus {
 
     public static void sendReplyEmbed(EmbedBuilder embed, SlashCommandInteractionEvent event) {
         event.replyEmbeds(embed.build()).setEphemeral(false).queue();
-    }
-
-    public static void sendModals(Modal modal, SlashCommandInteractionEvent event) {
-        event.replyModal(modal).queue();
-    }
-
-    public static void sendReplyWithButtons(String message, List<Button> buttons, SlashCommandInteractionEvent event) {
-        event.reply(message).addActionRow(buttons).setEphemeral(false).queue();
     }
 
     public static void sendReplyEmbedWithButtons(EmbedBuilder embed, List<Button> buttons, SlashCommandInteractionEvent event) {

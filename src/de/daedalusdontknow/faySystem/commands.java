@@ -36,5 +36,16 @@ public class commands {
         main.builder.upsertCommand("coinflip", "Flip a coin").addOption(OptionType.INTEGER, "amount", "the amount you want to play with").queue();
         main.builder.upsertCommand("dr", "Roll a dice").addOption(OptionType.INTEGER, "amount", "the amount you want to play with").queue();
         main.builder.upsertCommand("diceroll", "Roll a dice").addOption(OptionType.INTEGER, "amount", "the amount you want to play with").queue();
+
+        //----------------------------------------------------------------------------------------------------------------------
+        //                                      Multiplayer Game  Commands
+        //----------------------------------------------------------------------------------------------------------------------
+
+        main.builder.upsertCommand("games", "Get all running games").queue();
+        main.builder.upsertCommand("ttt", "Play Tic Tac Toe").addOption(OptionType.USER, "user", "The user you want to play with").addOption(OptionType.INTEGER, "amount", "the amount you want to play with").queue();
+        main.builder.upsertCommand("tictactoe", "Play Tic Tac Toe").addOption(OptionType.USER, "user", "The user you want to play with").addOption(OptionType.INTEGER, "amount", "the amount you want to play with").queue();
+        main.builder.upsertCommand("mrps", "Play Multiplayer Rock Paper Scissors").addOption(OptionType.USER, "user", "The user you want to play with").addOption(OptionType.INTEGER, "amount", "the amount you want to play with").queue();
+        main.builder.upsertCommand("multiplayer-rps", "Play Multiplayer Rock Paper Scissors").addOption(OptionType.USER, "user", "The user you want to play with").addOption(OptionType.INTEGER, "amount", "the amount you want to play with").queue();
+        main.builder.upsertCommand("multiplayer-rockpaperscissors", "Play Multiplayer Rock Paper Scissors").addOption(OptionType.USER, "user", "The user you want to play with").addOption(OptionType.INTEGER, "amount", "the amount you want to play with").queue();
     }
 }

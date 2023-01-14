@@ -64,4 +64,13 @@ public class function {
         }
     }
 
+    public static int generateRandomID(int i) {
+        String chars = "1234567890";
+        StringBuilder sb = new StringBuilder();
+        for (int j = 0; j < i; j++) {
+            int index = (int) (chars.length() * Math.random());
+            sb.append(chars.charAt(index));
+        }
+        return Integer.parseInt(sb.toString());
+    }
 }
