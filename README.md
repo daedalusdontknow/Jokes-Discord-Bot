@@ -59,7 +59,3 @@ Please always include my name somewhere when using this code, also I look forwar
 	
  Moonfire         : https://github.com/Moonfire360
 </h4>
-
-<h6 align="center">
-<3 Love Joke <3
-</h6>
