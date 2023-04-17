@@ -52,7 +52,7 @@ After that compile the bot or Build the Bot with the main class `main.java`
   <img alt="logo" src="https://user-images.githubusercontent.com/101858241/218328512-3c2494e8-e9f9-4279-ace1-79a75510395e.png" width="512px"/><br/>
 </details>
 
-Please always include my name somewhere when using this code, also I look forward to continuing to release new versions, love Joke
+Please always include my name somewhere when using this code, also I look forward to continuing to release new versions
 
 <h4 align="center">
  daedalusdontknow : https://github.com/daedalusdontknow/
